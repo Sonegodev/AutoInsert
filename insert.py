@@ -28,3 +28,5 @@ with open(arquivo_sql, 'w', encoding='utf-8') as f:
         f.write(linha_insert)
 
 print(f"arquvio '{arquivo_sql}' feito com sucesso com {len(df)} INSERTs.")
+
+# sql insert
